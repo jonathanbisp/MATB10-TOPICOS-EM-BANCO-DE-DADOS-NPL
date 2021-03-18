@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv('tweet_text.csv', sep=',', encoding='utf8')
+df = pd.read_csv('tweet_text.csv', sep=',', encoding='utf8',header=None)
 
 #print(df.rows)
 
